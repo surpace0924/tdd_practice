@@ -20,3 +20,4 @@ jobs:
         cd unity
         cmake .
         make
+        ./unity_test
