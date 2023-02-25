@@ -28,7 +28,7 @@ static void given(int charsWritten)
 {
     TEST_ASSERT_EQUAL(strlen(expected), charsWritten);
     TEST_ASSERT_EQUAL_STRING(expected, output);
-    TEST_ASSERT_BYTES_EQUAL(0xaa, output[strlen(expected)+1]);
+    TEST_ASSERT_BYTES_EQUAL(0xab, output[strlen(expected)+1]);
 }
 
 TEST(sprintf, NoFormatOperations)
