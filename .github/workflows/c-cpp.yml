@@ -16,4 +16,7 @@ jobs:
     - name: Hello
       run: echo Hello
     - name: test
-      run: cd unity & cmake . & make
+      run: |
+        cd unity
+        cmake.
+        make
